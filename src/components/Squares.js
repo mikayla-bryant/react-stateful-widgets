@@ -40,7 +40,7 @@ const [activeSquare, getActiveSquare] = useState(null);
     // Set the id argument to become the active id in state
     // (unless it already is, in which case we should reset
     // the currently active square id back to initial state).
-    activeSquare == null ? getActiveSquare(id) : getActiveSquare(null)
+    activeSquare == null ? getActiveSquare(id) : getActiveSquare(null) 
   };
 
   return (
